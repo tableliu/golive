@@ -44,7 +44,7 @@ $js = <<<JS
     var session = new ab.Session(
         // 'ws://127.0.0.1:8090',
         // 'ws://localhost:8090',
-        'wss://www.goliveback.qualisafe.com.cn:8090',
+        'wss://www.goliveback.website.com:8090',
         function() {
                 session.subscribe('iip_base', function(topic, data) {
                 console.log('published to topic "' + topic + '" : ' + data.title);
