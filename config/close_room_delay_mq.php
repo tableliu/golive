@@ -2,8 +2,8 @@
 return [
     'class' => \yii\queue\amqp_interop\Queue::className(),
     'port' => 5672,
-    'user' => 'admin',
-    'password' => 'adm1n',
+    'user' => '',
+    'password' => '',
     'queueName' => 'close_room_delay',
     'exchangeName' => 'close_room_delay',
     'driver' => yii\queue\amqp_interop\Queue::ENQUEUE_AMQP_LIB,
